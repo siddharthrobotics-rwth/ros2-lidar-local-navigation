@@ -25,11 +25,9 @@ setup(
     entry_points={
         'console_scripts': [
             'obstacle_avoider_node = obstacle_avoider.obstacle_avoider:main',
-             'obstacle_avoider_phase3 = obstacle_avoider.obstacle_avoider_phase3:main',
              'obstacle_avoider_phase2_robust = obstacle_avoider.obstacle_avoider_phase2_robust_obstacle:main',
-             'obstacle_avoider_phase2_5 = obstacle_avoider.obstacle_avoider_phase2_5_squeeze_corner:main',
              'obstacle_avoider_phase2_5_search_fix = obstacle_avoider.obstacle_avoider_phase2_5_search_fix:main',
-             'obstacle_avoider_phase2_5_front_wall = obstacle_avoider.obstacle_avoider_phase2_5_front_wall_fix:main'
+             
         ],
     },
 )
